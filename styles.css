@@ -1,0 +1,50 @@
+/* Named Colors */
+.named-color {
+    color: red;
+    background-color: lightblue;
+}
+
+/* Hexadecimal Colors */
+.hex-color {
+    color: #ff5733; /* Orange */
+    background-color: #f0f0f0; /* Light Gray */
+}
+
+/* RGB Colors */
+.rgb-color {
+    color: rgb(255, 0, 0); /* Red */
+    background-color: rgb(0, 255, 255); /* Cyan */
+}
+
+/* RGBA Colors (with transparency) */
+.rgba-color {
+    color: rgba(0, 0, 255, 0.7); /* Blue with 70% opacity */
+    background-color: rgba(0, 255, 0, 0.5); /* Green with 50% opacity */
+}
+
+/* HSL Colors */
+.hsl-color {
+    color: hsl(200, 100%, 50%); /* Bright Blue */
+    background-color: hsl(50, 100%, 50%); /* Yellow */
+}
+
+/* HSLA Colors (with transparency) */
+.hsla-color {
+    color: hsla(200, 100%, 50%, 0.7); /* 70% visible */
+    background-color: hsla(50, 100%, 50%, 0.5); /* Yellow with 50% opacity */
+}
+
+/* Transparent Background */
+.transparent-bg {
+    background-color: transparent;
+}
+
+/* Linear Gradient */
+.linear-gradient-bg {
+    background: linear-gradient(to right, red, yellow);
+}
+
+/* Radial Gradient */
+.radial-gradient-bg {
+    background: radial-gradient(circle, red, yellow, green);
+}
